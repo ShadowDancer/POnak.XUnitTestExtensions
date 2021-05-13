@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableNETAnalzers>true</EnableNETAnalzers>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Author>Przemysław Onak</Author>
+    <Product>POnak.XUnitTestExtensions</Product>
+    <Description>Contains test case generators for testing using boundary analysis</Description>
+    <PackageTags>xUnit test testing boundary analysis two point three point</PackageTags>
+    <Version>0.0.1</Version>
+    <PackageId>POnak.XUnitTestExtensions</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ShadowDancer/POnak.XUnitTestExtensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ShadowDancer/POnak.XUnitTestExtensions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="xunit.core" Version="2.4.1" />
+  </ItemGroup>
+
+</Project>
